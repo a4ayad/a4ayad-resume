@@ -1,4 +1,4 @@
-# Code Challenge 10: The NPM Resume 
+# Code Challenge 10: The API Resume 
 
 ## Heroku link 
 
