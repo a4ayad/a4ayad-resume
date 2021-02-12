@@ -1,0 +1,38 @@
+{
+  "name": "ahmed-resume",
+  "version": "1.4.0",
+  "description": "Code Challenge 9: The NPM Resume",
+  "main": "index.mjs",
+  "type": "module",
+  "bin": {
+    "ahmedResume": "index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a4ayad/demo-2-node.git"
+  },
+  "keywords": [
+    "npm",
+    "resume",
+    "cc10",
+    "heroku"
+  ],
+  "author": "aayad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a4ayad/demo-2-node/issues"
+  },
+  "homepage": "https://github.com/a4ayad/demo-2-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "intro-node": "^1.0.0"
+  },
+  "engines": {
+    "node": "v15.3.0",
+    "npm": "6.14.11"
+  }
+}
