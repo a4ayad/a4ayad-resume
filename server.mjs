@@ -13,6 +13,10 @@ const { basics: { name,email,about } } = dataResume;
 
 const { basics: { location: { city, state } } } = dataResume;
 
+const { basics: { languages } } = dataResume;
+
+const { basics: { profiles } } = dataResume;
+
 const { basics: { profiles: { github, linkedin } } } = dataResume;
 
 const { basics: { education } } = dataResume;
@@ -74,7 +78,7 @@ app.get('/Profiles', (req, res) => {
 
 // // Education
 app.get('/Education', (req, res) => { 
-    res.send(education)
+    res.send( degree, area)
 });
 
 // app.get('/welcome', (req, res) => {
