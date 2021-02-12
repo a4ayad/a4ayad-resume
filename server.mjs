@@ -54,16 +54,33 @@ app.get('/id', (req, res) => {
 // app.get ('/ahmedResume', (req, res) => { 
 //     res.send(dataResume)
 // });
+// Home
 app.get('/', (req, res) => { 
     res.send(home)
+});
+
+// dataResume
+// app.get('/', (req, res) => { 
+//     res.send(dataResume)
+// });
+
+app.get('/Languages', (req, res) => { 
+    res.send(languages)
+});
+
+app.get('/Profiles', (req, res) => { 
+    res.send(profiles)
+});
+
+// // Education
+app.get('/Education', (req, res) => { 
+    res.send(education)
 });
 
 // app.get('/welcome', (req, res) => {
 //     res.send(`
     
 //     `)
-
-
 // })
 // 'hello' route
 // app.post('/hello', (req, res) => {

@@ -39,7 +39,7 @@ export const dataResume = {
         },
         eda_tools: "Joules, Spyglass, Jupiter XT, Magellan, Incisive",
         specialties: "Strong EDA technical background using CAD tools from multiple vendors including Synopsys and Cadence.",
-        languages: "Verilog, VHDL, Perl, C, TCL, Shell Scripts"
+        languages: "JavaScript, Verilog, VHDL, Perl, TCL, Shell Scripts"
     }
 }
 
