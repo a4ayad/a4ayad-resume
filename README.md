@@ -1,58 +1,32 @@
 # Code Challenge 10: The API Resume 
 
 ## Heroku link 
+https://a4ayad-resume.herokuapp.com/
 
 ## Github repo
-https://github.com/a4ayad/demo-2-node/tree/cc10-api-ahmed-resume
+https://github.com/a4ayad/a4ayad-resume
 
 
-AA Notes
-write our own resume API endpoint
+## Description of my work:
+
+In Code Challenge 9 I made a command-line version of my resume. In this Code Challenge I build the API version of my resume with express. 
 
 'express' is a dependency in package.json file. It allows us to build our own backend
 express is node framework for the backend
 
-www.npmjs.com
-www.npmjs.com/package/lodash
-another way to import packages into API
+Added a `server` file [server.mjs] that brings in express and serves a route 
+    (named the route the same name I gave your npx command. 
 
-downloaded Postman app from postman.com
+Added a home route ("/"). It gives instructions on how to use my API and promote my command-line resume. 
 
+Exported my postman collection and saved it to my project. 
 
-localhost:5000/ahmedResume
+    Downloaded Postman app from postman.com 
 
+Pushed my project into Github
 
-## Instructions
-Code Challenge 10: The API Resume 
+Deployed my app to Heroku 
 
-You're made a command-line version of your resume, now it's time to build the api version with express. 
-
-Added a `server` file [server.mjs] that brings in express and serves a route (name the route the same name you gave your npx command. 
-
-Add a home route ("/"). It should give instructions on how to use your api and promote your command-line resume. 
-
-Export your postman collection and save it to your project. 
-
-    downloaded Postman app from postman.com 
-
-Push your project to Github (remember to ignore node_modules directory) 
-
-Deploy your app to Heroku 
-
-
-
-### Submit: 
-
-Your Git Repo URL 
-
-Your Heroku link 
-
-
-### My work:
-
-Created new github branch cc10-api-ahmed-resume under demo-2-node. 
-
-https://github.com/a4ayad/demo-2-node/tree/cc10-api-ahmed-resume 
 
 Starting point of the project which creates your package.json file. 
 
@@ -62,32 +36,59 @@ v15.3.0
 $ npm --version
 6.14.11
 
+
+The npm command below updates package.json file:
+
 $ npm init 
+package name: (ahmed-resume) a4ayad-resume
+
 
 $ yarn add express 
 
 The above command creates node_modules/ folder if it doesn’t exist and adds express to package.json file. 
 
+
+The node command below will display the content of console.log() from index.mjs. 
+
 $ node index.mjs 
 
-The above command should display the content of console.log() from index.mjs. 
 
 
 ### Heroku
 
-Downloaded and installed 64-bit installer Heroku from https://devcenter.heroku.com/articles/heroku-cli for Windows
+Downloaded and installed Heroku
 
-
-$ reoku local
 
 $ heroku local web
+    1:13:54 PM web.1 |  > node server.mjs
+    1:13:55 PM web.1 |  App is starting now on 5000
+
+
+
+Run heroku app locally
+  Start the application specified by a Procfile (defaults to ./Procfile)
+
+$ heroku local web
+    web = PROCESSNAME
+
+heroku login
+
+To creates a new app
+$ heroku create
+
+git add . && git commit -m "<youMessage>" && git push && git push heroku main
+
+git push heroku HEAD:master
+heroku open
 
 ## JSON Resume
 https://jsonresume.org/getting-started/
 
-npm install -g resume-cli
-resume export Ahmed_Ayad_swe-1pg.pdf
 
 
 JSON Resume Exporter 
  Chrome extension to import your LinkedIn Profile.
+
+ www.npmjs.com
+www.npmjs.com/package/lodash
+another way to import packages into API

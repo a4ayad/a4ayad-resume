@@ -13,8 +13,9 @@ const URL = (process.env.ENV === 'development')
   : 'https://a4ayad-resume.herokuapp.com'
 
 export const home = {
-    overview: 'Welcome to my Resume API. Please browse below to respective section',
-    summary : `${URL}/summary"`,
-    skills: `${URL}/skills`,
-    education: `${URL}/education`
+    overview: 'Welcome to my Resume API. Please click on the link below, or type "npx demo-2-node" from your terminal',
+    resume: `${URL}`
+    // summary : `${URL}/basics"`,
+    // skills: `${URL}/skills`,
+    // education: `${URL}/education`
 }
